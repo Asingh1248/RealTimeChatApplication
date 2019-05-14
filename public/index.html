@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>RealTime Chat Application</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.0.3/socket.io.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <div id="header">
+        <h3>Chat Appliction By Animesh</h3>
+    </div>
+    <div id="mario-chat">
+        <div id="chat-window">
+            <div id="output"></div>
+            <div id="feedback"></div>
+
+        </div>
+
+        <input id="handle" type="text" placeholder="UserName" />
+
+        <input id="message" type="message" placeholder="Message" />
+
+        <button id="send">Send</button>
+
+    </div>
+
+    <script src="chat.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,61 @@
+Reference:Real Time Chat App Using Socket IO and ExpressJS Part --Coding Shiksha
+
+Step1:
+Installing npm and nodej
+node -v,npm -v
+
+
+Create package.json  file
+npm init ,Check the Configuration
+
+Installing  ExpressJS
+npm install express --save
+
+Installing Socket.io
+npm install socket.io  --save
+
+Installing Nodemon
+npm install -g Nodemon  (tool ---not to restart the server if you update any changes in file)
+
+Step 2:
+Coding in index.js
+Go to directory ..in node command console.log( shown in the command prompt)
+Running the Program:
+D:\MCA-Sem5\Chat>nodemon index
+
+File:index.html+stylesheet(public) will be called by index.js
+     chat.js(Client Side --socket will be present) 
+
+Cannot get/ :Server is in dilemma which file to be shown to client. since we have not created the file 
+
+Step3:
+public directory
+  -->index.html 
+  -->style.css   
+
+Including into server (index.js)
+index.html will be shown
+
+
+Step 4:Socket Connection at Client Side and Server Side
+  a)Code at index.js for SocketConnection and io.on 
+  b)Code at index.html to include socket library --https://cdnjs.com/libraries/socket.io/2.0.3
+  c)Go to chat.js(public)
+    Write One Line Code
+
+Step 5:Mechanism to send message back and forth 
+
+Code on client side(chat.js)--Manipulate the DOM and Hence require id ,click and chat Event and sending it to the Server 
+Code on Server Side(index.js)
+Code on client side to receive the message
+
+Step 6:Functionality:Type the Message should be visible to All the Client to Animesh is typing 
+
+Code on client.js for  keypress 
+Code on index.js to broadcast to all other client except on who is typing the message
+Code on chat.js to receive the message + Removing feedback.innerHTML write before the message is printed 
+
+
+
+
+
