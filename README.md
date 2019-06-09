@@ -21,7 +21,13 @@
   
  ```sh
  git clone 
- cd RealTime
+ cd Chat
+ npm install
+ nodemon index
+ 
+ ```
+ 
+ 
   
   
    
